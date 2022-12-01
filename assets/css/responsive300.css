@@ -1,0 +1,727 @@
+@charset "utf-8";
+@media only screen and (min-width:270px) and (max-width:599px){
+/* CSS Document */
+	.headerInner{
+		flex-flow:row wrap !important;
+	}
+	.menu-toggle{
+		display:flex;
+	}
+
+	.flex-menu-item{
+		padding:10px 15px !important;
+	}
+
+	.header{
+		padding: 15px 1rem;
+		padding-bottom: 0px;
+	}
+	
+	.flex-menu{
+		display: none;
+		flex-flow: column;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		overflow:hidden;
+	}
+	.flex-menu ul{
+		flex-flow: column nowrap;
+	}
+/*	
+.flex-nav > div {
+  	flex-direction: column;
+	width: 100%;
+}
+*/
+/*	
+.flex-menu > div {
+  	flex-direction: column;
+	margin: 10px;
+	width: 100%;
+}
+*/
+	
+	.flex-benefits > div {
+    padding: 20px 2% !important;
+    width: 98% !important;
+}
+	.flexHomeCallout {
+	padding: 30px 2%;
+	width: 96% !important;
+	right: 0 !important;
+	left: 0 !important;
+	
+}
+	
+	.flex-callout > div {
+    width: 100%;
+}
+	
+.appContainerOTPItem > div {
+    padding: 1px;
+    font-size: 35px !important;
+}
+.cardRow h1 {
+    font-size: 25px !important;
+    padding: 0;
+    margin: 0;
+}
+.cardRow h3 {
+    font-size: 18px;
+}
+.eyeIcon {
+    width: 14%;
+    text-align: center;
+}
+	
+.flex-callout h2 {
+    font-size: 3.5vw;
+    margin: 0;
+}
+	
+.flex-how h3 {
+    font-size: 5.5vw;
+}
+.flexHomeCallout {
+    top: 595px !important;
+}
+	
+.bureauLogos > div {
+    width: 24% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+	
+	
+.flex-how > div {
+    padding: 20px 2% !important;
+    width: 100% !important;
+}
+
+.fa-custom-h1{
+	font-size:5.5vw;
+}
+h1{
+    font-size: 5.5vw;
+    margin: 0;
+}
+
+h2:not('.toolsHeading') {
+    font-size: 4.5vw;
+    margin: 0;
+}
+
+	
+h4 {
+    font-size: 3vw;
+    margin: 0;
+}
+	
+.flex-footer > div {
+    width: 86% !important;
+}
+	
+.flex-benefits h4 {
+    padding-top: 10px;
+    font-size: 5.3vw;
+}
+/*	
+.flex-menu-mobi {
+	display: flex !important;
+}
+*/
+/*
+.flex-menu-desktop {
+	display: none !important;
+}
+*/
+	
+/*	
+.flex-menu > div {
+    flex-direction: column;
+    margin: -60px 10px 10px 10px;
+    width: 4%;
+}
+*/
+
+.center {
+	width:98%;
+	padding:0px 1%;
+	position:relative;
+	overflow:hidden;
+}
+	
+.alignLeft {
+	text-align: center;
+}
+.alignRight {
+	text-align: center;
+}
+.fullHeight {
+	min-height: auto;
+}
+.halfHeight {
+	min-height: auto;
+}
+	
+	
+.TwoCol li {
+	width: 100% !important;
+	
+}
+.ThreeCol li {
+	width: 100% !important;
+	
+}
+.FourCol li {
+	width: 100% !important;
+	
+}
+.FiveCol li {
+	width: 100% !important;
+	
+}
+.SixCol li {
+	width: 100% !important;
+	
+}
+	
+.flex-menu-mobi img {
+	display: block;
+}
+
+.classToggleNavShow {
+	display: flex;
+}
+.classToggleNavHide {
+	display: none;
+}
+.flex-menu-mobi img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    margin-top: -25px;
+}
+	
+.flex-benefits h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 6.5vw;
+}
+	
+.appContainer {
+    flex-direction: column;
+    width: 96%;
+	margin: 100px auto;
+    height: auto !important;
+}	
+	
+.appLeftBG {
+	width: 100%;
+	min-height: auto;
+	margin-bottom:10px;
+	
+}
+.appRightBG {
+	width: 100%;
+	min-height: auto;
+		margin-bottom:10px;
+}
+.helpForm {
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+	width: 44%;
+  	box-sizing: border-box;
+}
+	
+.helpForm > div {
+    width: 100%;
+    display: flex;
+}
+.appContainerOne {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+	
+.appContainerTwo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+	
+.appDashboardContainerOne {
+    width: 97% !important;
+    box-sizing: border-box !important;
+    justify-content: center;
+    margin: 1%;
+    padding: 1%;
+	flex-wrap: wrap;
+}
+
+.halfSize {
+	width: 100%;
+	margin:0;
+}
+.halfSize > div {
+	width: 98%;
+	margin:1%;
+}
+.appParentStyles {
+    box-shadow: 0px 1px 5px #0001;
+}
+	
+.appParentStyles > div {
+	margin-left: 0px !important;
+}
+	
+.helpForm {
+    padding: 1;
+	padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    box-sizing: border-box;
+}	
+	
+.appDashboardContainerOneMobi {
+    width: 100% !important;
+}
+.appDashboardContainerTwo {
+	flex-wrap: wrap;
+}
+.appDashboardContainerTwoItem {
+	width: 90% !important;
+	justify-content: space-between;
+}
+	
+.appDivSpacing {
+    padding: 5px !important;
+    margin: 5px !important;
+}
+.cardRow {
+    font-size: 11px;
+}
+	
+.centerCards .appDashboardContainerTwo {
+    flex-wrap: wrap;
+	justify-content: center;
+}
+	
+.appDashboardContainer > div {
+	flex-wrap: wrap; 
+}
+.ddcSection {
+    width: 98% !important;
+    box-sizing: border-box !important;
+    justify-content: center;
+    margin: 1%;
+    padding: 1%;
+}
+	
+.flex-how h4 {
+    font-size: 25px;
+    margin: 0;
+}
+.dccSectionItem {
+	width: 100% !important;
+	display: flex;
+}
+.flex-benefits h4 {
+	font-size: 25px;
+    margin: 0;
+}
+.appLeftBG {
+	padding: 20px;
+}
+.appRightBG {
+	padding: 20px;
+}
+.innerPadding {
+    box-sizing: border-box;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.flex-footer img {
+    margin: 0 auto;
+	padding-bottom: 20px;
+}
+.appLeftBG {
+	border-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+}
+.appRightBG {
+	border-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.appContainerReverse {
+    flex-direction: column;
+}
+.inputHalfSize {
+	width: 100%;
+}
+.flex-callout {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px 17px;
+}
+.flex-footer > div {
+	text-align: center;
+}
+.flex-footer {
+	text-align: center;
+	justify-content: center;
+}
+
+.animateBG{
+	background-image: url("../img/carousel-img-4.jpg");
+	min-height:700px;
+}
+.animatePeople {
+    
+    background-size: auto 81%;
+	background-position: bottom;
+    z-index: 3;
+    background-repeat: no-repeat;
+    transition: background-size 0.8s ease 1ms;
+}
+.animateBeach {
+    bottom: 100px;
+    background-image: url(images/anim-beach.png);
+    background-size: 250%;
+}
+.paymentThreeCol2 > div {
+    padding: 10px 0px;
+}
+.flex-menu-mobi a:hover {
+	background-color: transparent;
+}
+	
+.custContainerSize .appRightBG {
+	height: auto;
+}
+.custContainerSize .appLeftBG {
+	height: auto;
+}
+.custContainerSize .appContainer {
+	margin: 150px auto 100px auto;
+}
+	
+.slider:before {
+    height: 16px;
+    width: 16px;
+    left: 6px;
+	bottom: 6px;
+    right: 0px;
+}
+/*
+	.minHeight250 {
+	min-height: auto !important;
+}
+.minHeight500 {
+	min-height: auto !important;
+}
+.minHeight750 {
+	min-height: auto !important;
+}
+.minHeight1000 {
+	min-height: auto !important;
+}
+.minHeight1250 {
+	min-height: auto !important;
+}
+*/
+
+form {
+	width: 100%;
+}
+.navbar-list {
+	text-align: center;
+}
+	
+.blockButton {
+    padding: 8px;
+}
+	
+	
+.topModal {
+	flex-direction: column !important;
+	text-align: center !important;
+	align-content: flex-start !important;
+	justify-content: center !important;
+	padding: 5px !important;
+}
+	
+.topModal > div p {
+	margin:0 !important;
+}
+.topModal-button {
+	margin:5px !important;
+}
+	
+.topModal > div {
+	text-align: center !important;
+}
+	
+	
+.call-out-section {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items:center;
+}
+
+#call-out-1{
+	background-image: url("../img/arrow-gif-300.gif");
+	background-repeat: no-repeat;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.call-out-item {
+	width: 90%;
+	justify-content: flex-start;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.call-out-item.primary{
+	order:1;
+}
+
+.call-out-item h1 {
+	font-size: 40px;
+}
+
+.h1-size{
+	font-size:40px;
+}
+
+.desktop-hide {
+	display: block !important;
+}
+.mobi-hide {
+	display: none !important;
+}	
+.flex-article > div {
+	width: 100%;
+}
+
+.the-tools{
+	flex-flow:column nowrap;
+}
+
+.flex-tools{
+	margin-bottom: 75px;
+}
+/*
+.article-ul {
+	margin-left: -25px !important;
+		
+}
+*/
+	
+.flex-article > div {
+	flex-direction: column;
+}
+					
+.article-comment {
+    background-color: #00A4EA;
+    box-shadow: 2px 2px 3px #0003;
+    color: #fff;
+    padding: 10px 2%;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-style: italic;
+    width: 96%;
+}
+.article-callout h2 {
+	font-size: 18px;
+	padding: 15px 0;
+}
+
+.question-card{
+	width: calc(100vw - 80px);
+}
+
+.question-list-navigation{
+	width: calc(100vw - 20px);
+}
+
+.payment-buttons{
+	flex-direction: column;
+}
+
+	/* close breakpoint */
+	
+	/* Funeral cover starts*/
+.align-right {
+	text-align: left;
+}
+.funeralcoveraction {
+    justify-content: flex-start;
+}
+					
+.no-top-padding {
+	padding-top: 10px;
+}
+.no-bottom-padding {
+	padding-bottom: 10px;
+}
+.funeral-cover .inputHalfSize {
+    width: 98%;
+    padding: 5px 1%;
+}
+.mobi-hide {
+	display: none;
+}
+.mobi-show {
+	display: block;
+}
+.cust-padding {
+	padding: 0px;
+}
+.funeral-cover .slidecontainer {
+    width: 99%;
+    position: relative;
+    margin-top: 5px;
+}
+.funeral-cover H4 {
+	font-size: 20px;
+}
+
+.flex-footer p{
+	text-align:center;
+}
+	.flex-how-heading h3 {
+    font-size: 23px !important;
+}
+	.mobi-home {
+    display: flex !important;
+    justify-content: flex-end !important;
+    flex-direction: row !important;
+    flex: 1 !important;
+    position: absolute !important;
+    right: 10px !important;
+    margin-top: -75px !important;
+}
+	.call-out-item .h1-size {
+    font-size: 40px;
+    line-height: 40px;
+}
+	
+	.sidenav {
+		top: 40px;
+	}
+	.nutun-subscribe-item {
+		max-width: 100%;
+	}
+	.nutun-subscribe-input {
+    width: 75% !important;
+}
+	.nutun-subscribe-button {
+    width: 20% !important;
+}
+	.nutun-subscribe-item h3 {
+    font-size: 20px;
+}
+	.nutun-footer-top {
+    flex-direction: column !important;
+}
+	.nutun-footer-link-row { 
+	flex-direction: column !important;
+	}
+	.nutun-footer-link-item {
+    padding: 10px 5px;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+}
+	.nutun-footer-bottom {
+    flex-direction: column !important;
+}
+	.nutun-disclaimer-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+	.nutun-footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+	.nutun-footer-link-row h4 {
+		margin-top: 10px;
+	}
+	.flex-menu-mobi img {
+    margin: -8px -9px 0px 10px !important;
+}
+	.sidenav .sideContent {
+    min-height: 750px;
+    overflow-y: scroll;
+    margin-top: 25px;
+}
+	.sub-footer {
+    position: relative !important;
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+}
+
+.nutun-footer-bottom>div {
+	justify-content: center !important;
+}
+
+.logo img {
+	width: 225px;
+}
+.appContainerItem h5 {
+		font-size: 14px;
+	}
+	
+.nutun-footer-top-item {
+    max-width: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.nutun-footer-logo {
+	display: flex;
+	align-items: center;
+}
+	.mobi-center {
+		text-align: center !important;
+	}
+	.nutun-subscribe-button input[type="submit"] {
+    padding: 10px 2px !important;
+}
+	.nutun-credit-regulator {
+		padding: 10px;
+	}
+	.social-row {
+    flex-direction: row !important;
+    display: flex;
+    justify-content: center !important;
+    margin: 0 auto;
+}
+	.call-out-item-footer>div {
+    margin: 5px 0;
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+	.call-out-item .call-out-item-footer {
+    flex-flow: column;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+		
+}
+}

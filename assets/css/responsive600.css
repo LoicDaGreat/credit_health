@@ -1,0 +1,542 @@
+@charset "utf-8";
+@media only screen and (min-width:600px) and (max-width:799px){
+/* CSS Document */
+
+	.headerInner{
+		flex-flow:row wrap !important;
+	}
+	.menu-toggle{
+		display:flex;
+	}
+	
+	.flex-menu-item{
+		padding:10px 15px !important;
+	}
+
+	.header{
+		padding: 15px 1rem;
+		padding-bottom: 0px;
+	}
+	
+	.flex-menu{
+		display: none;
+		flex-flow: column;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		overflow:hidden;		
+	}
+	
+	.flex-menu ul{
+		flex-flow: column nowrap;
+	}
+
+	/*
+	.flex-nav > div {
+  			flex-direction: column;
+			margin: 10px;
+		width: 100%;
+		}
+	*/
+	
+	/*
+	.flex-menu > div {
+  			flex-direction: column;
+			margin: 10px;
+		width: 100%;
+		}
+		*/
+	
+	.flex-benefits > div {
+    padding: 20px 2% !important;
+    width: 98% !important;
+}
+	.flexHomeCallout {
+	padding: 30px 2%;
+	width: 96% !important;
+	right: 0 !important;
+		left: 0 !important;
+	
+	}
+	.appContainerOTPItem > div {
+    padding: 3px;
+    font-size: 35px !important;
+}
+	.flex-how h3 {
+    font-size: 5.5vw;
+}
+	.flexHomeCallout {
+    top: 595px !important;
+	}
+	.blockButton {
+    padding: 8px;
+}
+	.bureauLogos > div {
+    width: 24% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+	.flex-footer > div {
+    width: 44% !important;
+}
+	.flex-how > div {
+    padding: 20px 2% !important;
+    width: 100% !important;
+}
+	.flex-callout > div {
+    width: 100%;
+}
+
+.fa-custom-h1{
+	font-size:5.5vw;
+}
+
+	h1 {
+    font-size: 5.5vw;
+    margin: 0;
+}
+	h2 {
+    font-size: 4.5vw;
+    margin: 0;
+}
+	h3 {
+    font-size: 3.5vw;
+    margin: 0;
+}
+	
+	h4 {
+    font-size: 3vw;
+    margin: 0;
+}
+	
+	
+	.flex-benefits h4 {
+    padding-top: 10px;
+    font-size: 5.3vw;
+}
+	
+	
+	
+	.flex-benefits h4 {
+    padding-top: 10px;
+    font-size: 5.3vw;
+}
+	
+.center {
+	width:98%;
+	padding:0px 1%;
+	position:relative;
+	overflow:hidden;
+}
+	
+	.alignLeft {
+	text-align: center;
+}
+.alignRight {
+	text-align: center;
+}
+	
+		.TwoCol li {
+	list-style: none;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+	
+}
+.ThreeCol li {
+	list-style: none;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+	
+}
+.FourCol li {
+	list-style: none;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	width: 50%;
+	
+}
+.FiveCol li {
+	list-style: none;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	width: 50%;
+	
+}
+.SixCol li {
+	list-style: none;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	width: 33%;
+	
+}
+.flex-menu-mobi a:hover {
+		background-color: transparent;
+	}
+	
+	.flex-menu-mobi {
+	display: flex !important;
+}
+	.flex-menu-desktop {
+display: none !important; 
+		/*	display: block!important;
+		margin: 0 !important;
+		float: left;*/
+}
+	/*
+	.flex-menu > div {
+    flex-direction: column;
+    margin: -60px 10px 10px 10px;
+    width: 4%;
+}
+*/
+	
+	
+	.flex-menu-mobi img {
+		display: block;
+}
+	
+	.classToggleNavShow {
+	display: flex;
+}
+.classToggleNavHide {
+	display: none;
+}
+	
+	.flex-benefits h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 6.5vw;
+}
+	
+	.appContainer {
+    flex-direction: column;
+    width: 96%;
+		margin: 100px auto;
+    height: auto !important;
+}
+	.appContainerReverse {
+    flex-direction: column;
+	}
+	.appLeftBG {
+	width: 100%;
+	min-height: auto;
+		margin-bottom:10px;
+	
+}
+	.inputHalfSize {
+	width: 100%;
+}
+.appRightBG {
+	width: 100%;
+	min-height: auto;
+		margin-bottom:10px;
+}
+	.centerCards .appDashboardContainerTwo {
+    flex-wrap: wrap;
+		justify-content: center;
+}
+	.cardRow {
+    font-size: 11px;
+}
+	form {
+		width: 100%;
+	}
+	.appDashboardContainer > div {
+		flex-wrap: wrap;
+	}
+	.appDashboardContainerOne {
+    width: 43% !important;
+  box-sizing: border-box;
+}
+	
+	.appDashboardContainerOneMobi {
+    width: 100% !important;
+}
+	.appDashboardContainerTwo {
+	flex-wrap: wrap;
+}
+	.appDashboardContainerTwoItem {
+	width: 28% !important;
+  box-sizing: border-box;
+}
+	.appDivSpacing {
+    padding: 10px !important;
+    margin: 5px !important;
+}
+	.helpForm {
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+		width: 44%;
+  box-sizing: border-box;
+}
+	
+	.helpForm > div {
+    width: 100%;
+    display: flex;
+}
+	.appContainerOne {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+	
+	.appContainerTwo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+	
+	.appDashboardContainerOne {
+   width: 48% !important;
+    box-sizing: border-box !important;
+    justify-content: center;
+    margin: 1%;
+    padding: 1%;
+}
+
+	.halfSize {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+	.halfSize > div {
+		width: 99% !important;
+		margin: 1% !important;
+}	
+	.appParentStyles {
+    box-shadow: 0px 1px 5px #0001;
+}
+	.flex-how h4 {
+    font-size: 25px;
+    margin: 0;
+}
+	.appParentStyles > div {
+		margin-left: 0px !important;
+	}
+	.flex-footer > div {
+		text-align: center;
+	}
+	.flex-footer {
+		text-align: center;
+	}
+	.flex-footer img {
+    margin: 0 auto;
+		padding-bottom: 20px;
+}.appLeftBG {
+		padding: 20px;
+	}
+	.appRightBG {
+		padding: 20px;
+	}
+		.flex-benefits h4 {
+		font-size: 25px;
+    margin: 0;
+	}
+	.helpForm {
+    padding: 1;
+		
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    box-sizing: border-box;
+}	
+	.flex-callout {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 29px 17px;
+}
+	.appDashboardContainerOneMobi {
+    width: 100% !important;
+}
+	.appDashboardContainerTwo {
+	flex-wrap: wrap;
+}
+	.appDashboardContainerTwoItem {
+	width: 29.5% !important;
+		justify-content: space-between;
+}
+	.ddcSection {
+   width: 98% !important;
+    box-sizing: border-box !important;
+    justify-content: center;
+    margin: 1%;
+    padding: 1%;
+}
+	.dccSectionItem {
+		width: 100% !important;
+		display: flex;
+	}
+	.appLeftBG {
+	border-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+	}
+	.appRightBG {
+	border-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+	.innerPadding {
+    box-sizing: border-box;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+	.paymentThreeCol2 > div {
+    padding: 10px 0px;
+}
+	.custContainerSize .appRightBG {
+			height: auto;
+		}
+		.custContainerSize .appLeftBG {
+			height: auto;
+		}
+		.custContainerSize .appContainer {
+			margin: 150px auto 100px auto;
+		}
+	form {
+		width: 100%;
+	}
+	.navbar-list {
+	text-align: center;
+	}
+	
+.topModal {
+	flex-direction: column !important;
+	text-align: center !important;
+	align-content: flex-start !important;
+	justify-content: center !important;
+	padding: 5px !important;
+}
+	
+.topModal > div p {
+	margin:0 !important
+}
+.topModal-button {
+	margin:5px !important;
+}
+.topModal > div {
+	text-align: center !important;
+}
+	
+.animatePeople {
+    
+   background-size: auto 81%;
+		background-position: bottom;
+	}
+	
+.call-out-section {
+    display: flex;
+	flex-direction: column-reverse;
+	align-items:center;
+}
+						
+.call-out-item {
+	width: 90%;
+	justify-content: flex-start;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 15px;
+						
+}
+.call-out-item.primary{
+	order:1;
+}
+.flex-article > div {
+	flex-direction: column;
+}
+					
+.article-comment {
+    background-color: #00A4EA;
+    box-shadow: 2px 2px 3px #0003;
+    color: #fff;
+    padding: 10px 2%;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-style: italic;
+    width: 96%;
+}
+.article-callout h2 {
+	font-size: 18px;
+	padding: 15px 0;
+}
+.flex-article > div {
+	width: 50%;
+}
+
+
+.payment-buttons{
+	flex-direction: column;
+}
+
+.flex-footer p{
+	text-align:center;
+}
+	.search-container h3 {
+    font-size: 23px !important;
+}
+	.sidenav {
+		top: 60px;
+	}
+	.nutun-footer-top {
+    flex-direction: column !important;
+}
+	.nutun-footer-link-item {
+    padding: 10px 5px;
+    text-align: left;
+}
+	.nutun-footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.logo img {
+		width: 225px;
+	}	
+.appContainerItem h5 {
+		font-size: 14px;
+	}
+	.nutun-footer-top-item {
+    max-width: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+	.nutun-footer-logo {
+	display: flex;
+	align-items: center;
+}
+		.mobi-center {
+		text-align: center !important;
+	}
+	.nutun-footer-bottom {
+		padding: 10px;
+	}
+	.social-row {
+    flex-direction: row !important;
+    display: flex;
+    justify-content: center !important;
+    margin: 0 auto;
+}
+/*
+.article-ul {
+	margin-left: -25px !important;
+		
+}
+*/	
+	/* close breakpoint */
+}

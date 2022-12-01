@@ -1,0 +1,41 @@
+.accord-header{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accord-item .accord-header.active .fas{
+	transform:rotate(180deg);
+	transition:0.3s
+}
+
+.accord-header.active .heading{
+	font-weight:bold;
+}
+
+.accord-item .accord-header .fas{
+	transition:0.3s
+}
+
+.accord-content{
+	overflow:hidden;
+	max-height:0;
+	transition: max-height 0.5s ease-out;
+}
+
+
+/*
+.accord-item .accord-content>*{
+	
+}
+*/
+
+/*
+.accord-item .accord-content.show{
+	display:block;
+}
+*/
+
+
+

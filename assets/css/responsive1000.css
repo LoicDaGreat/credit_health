@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+@media only screen and (min-width:1000px) and (max-width:1199px) {
+	/* CSS Document */
+
+
+	.flexHomeCallout {
+
+		width: 44% !important;
+		right: 0 !important;
+
+	}
+
+	.flexHomeCallout {
+
+		width: 44% !important;
+		right: 0 !important;
+
+	}
+
+
+	.flex-home>div {
+		display: flex;
+		flex-direction: row;
+		margin: 10px 0;
+		width: 100%;
+	}
+
+
+	.flex-how>div {
+		padding: 20px 2% !important;
+		width: 50% !important;
+	}
+
+	.flex-benefits>div {
+		padding: 20px 2% !important;
+		width: 33% !important;
+	}
+
+	.bureauLogos>div {
+		width: 14% !important;
+	}
+
+
+	.center {
+		width: 98%;
+		padding: 0px 1%;
+		position: relative;
+		overflow: hidden;
+	}
+
+
+
+	.TwoCol li {
+		list-style: none;
+		float: left;
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		width: 50%;
+
+	}
+
+	.ThreeCol li {
+		list-style: none;
+		float: left;
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		width: 33%;
+
+	}
+
+	.FourCol li {
+		list-style: none;
+		float: left;
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		width: 25%;
+
+	}
+
+	.FiveCol li {
+		list-style: none;
+		float: left;
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		width: 20%;
+
+	}
+
+	.SixCol li {
+		list-style: none;
+		float: left;
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		width: 16%;
+
+	}
+
+	.appLeftBG {
+		border-radius: 5px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
+	.appRightBG {
+		border-radius: 5px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+
+	/* close breakpoint */
+}
+
+
+@media only screen and (max-width:1000px) {
+	.sub-footer {
+		flex-flow: column !important;
+		justify-content: center;
+	}
+
+	.nutun-footer-bottom>div {
+		justify-content: center !important;
+		align-items: center !important;
+	}
+}

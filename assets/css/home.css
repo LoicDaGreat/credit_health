@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+.animateBG {
+		position: absolute !important;
+		display: block !important;
+		float: left;
+		top: 20px;
+		left: 0;
+		right: 0;
+		background-image: url("../img/carousel-img-4.jpg");
+		background-size: auto;
+		background-position: center;
+		z-index: 1;
+		background-repeat: no-repeat;
+		transition: background-size 1s ease 1ms;
+		background-color:#cbb7a2;
+		min-height: 900px;
+		max-height:900px
+		
+		
+	}
+	
+		
+		
+		.animateBG:hover {
+			display: block !important;
+			background-size: 100%;
+		}
+		
+		.animateBeach {
+			display: block !important;
+			position: absolute !important;
+			float: left;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-image: url("images/anim-beach.jpg");
+			background-size: 103%;
+			background-position: bottom;
+			z-index: 2;
+			background-repeat: no-repeat;
+			transition: background-size 0.8s ease 1ms;
+			
+		}
+		.animateBeach:hover {
+			background-size: 100%;
+			display: block !important;
+		}
+		
+		.animatePeople {
+			display: block !important;
+			position: absolute !important;
+			float: left;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			/* background-image: url("images/anim-bg-full.jpg"); */
+			background-size: 100%;
+			background-position: center;
+			z-index: 3;
+			background-repeat: no-repeat;
+			transition: background-size 0.8s ease 1ms;
+			
+		}
+		
+		.animatePeople:hover {
+			background-size: auto 91%;
+		}
+		
+		.animateText {
+			display: block !important;
+			position: absolute !important;
+			float: left;
+			top: 50px;
+			left: 0;
+			right: 0;
+			z-index: 4;
+			text-align: center;
+		}
+		
+		#animateintro {
+			color: #fff;
+			
+			-webkit-animation: backgroud-animation 30s infinite;
+		}
+		
+		@-webkit-keyframes backgroud-animation {
+			0% {
+				opacity: 1;
+			color: #0003;
+			}
+			25% {
+			opacity: 1;	
+			color: #0003;
+			}
+			50% {
+			opacity: 0;	
+			color: #0003;
+			}
+			75% {
+			opacity: 0;	
+			color: #0003;
+			}
+			100% {
+			opacity: 1;	
+			color: #0003;
+			}
+		}
+		.animateText h1 {
+			font-size: 10vw;
+			
+			
+		}
+		
+		
+		.animateText2 {
+			display: block !important;
+			position: absolute !important;
+			float: left;
+			top: 10px;
+			left: 0;
+			right: 0;
+			z-index: 6;
+			text-align: left;
+			line-height: 75px;
+		}
+		
+		#animateintro2 {
+			color: #fff;
+			
+			-webkit-animation: backgroud-animation2 30s infinite;
+		}
+		
+		@-webkit-keyframes backgroud-animation2 {
+			0% {
+				opacity: 0;
+			color: #fff6;
+			}
+			25% {
+			opacity: 0;	
+			color: #fff6;
+			}
+			50% {
+			opacity: 1;	
+			color: #fff6;
+			}
+			75% {
+			opacity: 1;	
+			color: #fff6;
+			}
+			100% {
+			opacity: 0;	
+			color: #fff6;
+			}
+		}
+		.animateText2 h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 5vw;
+			line-height: -50px;
+			
+			
+		}
+		.homeBlockLeft {
+			display: block !important;
+			top: 400px;
+			overflow: hidden;
+			position: relative;
+			left: 0;
+			padding: 20px;
+			border: solid thin #fff3;
+			width: 90%;
+			height: 250px;
+			
+		}
