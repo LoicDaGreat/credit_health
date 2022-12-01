@@ -1,12 +1,11 @@
-function validateForm() {
+function fakeLogin() {
   
-  
-   
-    var userId = document.forms["loginEmail"]["password"].value;
+
+    var userId = document.forms["login"]["idnumber"].value;
     
     
-    if ((userId == "123456789")) {
-             window.location.href = 'inbox.html';
+    if ((userId == "9607306333181")) {
+             window.location.href = 'dashboard.html';
               return false;
           }
           else {
@@ -14,3 +13,5 @@ function validateForm() {
           }
     
   }
+
+//   pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==13) return false;"

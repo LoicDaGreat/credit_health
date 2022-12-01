@@ -52,10 +52,7 @@
 		<!-- detect mobi layout -->
 		<!-- script includes -->
 
-		<script type="text/javascript" src="../../nutuncdn.azureedge.net/prod/js/jquery/3.6.0/jquery-3.6.0.min.js"></script>
-		<script type="text/javascript" src="../../nutuncdn.azureedge.net/prod/js/jquery-ui-1.13/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="assets/js/script.js"></script>
-		<script type="text/javascript" src="../../nutuncdn.azureedge.net/prod/js/credit_health/ch-events-experimental.js"></script>	
 		<script type="text/javascript" src="assets/js/accord.js"></script>
 		<script type="text/javascript" src="assets/js/login.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -146,16 +143,16 @@
 				<div class="help-me"><i class="far fa-question-circle fa-custom-h1"></i></div>
 			</div>
 			<div class="appContainerItem">Enter your ID number to continue</div>
-			<form>
+			<form name="login" onsubmit="return fakeLogin()" method="post">
 				<div class="appContainerItem">
 					<div class="appContainerItemInput">
-						<input type="text" class="form-input required" value='' placeholder="ID Number" id="idnumber" name="idnumber" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==13) return false;" autocomplete="off" />
+						<input type="text" class="form-input required" value='' placeholder="ID Number" id="idnumber" name="idnumber" autocomplete="off" />
 					</div>
 				</div>
 				<div class="appContainerItem appContainerItemToggle toggleText">
 
 					<div>
-						<button class= "nutun-slide-button-dark" id="signup">Continue</button>
+						<input class= "nutun-slide-button-dark" id="signup" type="submit" value="Continue" onclick="fakeLogin()">
 					</div>
 				</div>
 			</form>
